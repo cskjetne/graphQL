@@ -1,0 +1,15 @@
+
+query{
+  absenceRequest(id: ______){
+    absenceType
+    accepted
+    approved
+    calendarLine
+    comment
+    date
+    expired
+    id
+    requestingUser
+    substituteUser
+  }
+}
